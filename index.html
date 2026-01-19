@@ -1,0 +1,884 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./img/logo.webp" />
+    <title>Colégio Inline Innovations</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inder&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./img/logo.webp" alt="NOVA AURORA LOGO" />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link up" href="#home">Home</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Colégio
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li>
+                  <a class="dropdown-item" href="#sobre">Nossa História</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#estrutura">Estrutura</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Segmentos
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li><a class="dropdown-item" href="#segmentos">Infantil</a></li>
+                <li>
+                  <a class="dropdown-item" href="#segmentos">Fundamental |</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#segmentos">Fundamental || </a>
+                </li>
+                <li><a class="dropdown-item" href="#segmentos">Médio</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#diferenciais">Diferenciais</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Contato
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li>
+                  <a class="dropdown-item" href="#contato">Fale Conosco</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#footer">Trabalhe Conosco</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <a href="#matriculas" class="nav-link btn">Matrículas Abertas</a>
+        </div>
+      </div>
+    </nav>
+
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide carousel-fade"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./img/bannerOne.jpg"
+            class="d-block w-100"
+            alt="Alunos em ambiente escolar"
+          />
+          <div class="carousel-caption d-md-block text-start">
+            <span class="text-uppercase fw-bold ls-2 small mb-2 d-block"
+              >Compromisso com o Futuro</span
+            >
+            <h1 class="display-3 fw-bold text-uppercase">
+              Inline<br /><span class="text-white"> Innovations</span>
+            </h1>
+            <p class="lead opacity-75 mt-3">
+              Formação humana e excelência acadêmica para os desafios do mundo
+              globalizado.
+            </p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img
+            src="./img/bannerTwo.jpg"
+            class="d-block w-100"
+            alt="Crianças aprendendo"
+          />
+          <div class="carousel-caption d-md-block text-start">
+            <span class="text-uppercase fw-bold ls-2 small mb-2 d-block"
+              >Base Sólida e Criatividade</span
+            >
+            <h1 class="display-3 fw-bold text-uppercase">
+              Ensino <br /><span class="text-white">Fundamental</span>
+            </h1>
+            <p class="lead opacity-75 mt-3">
+              Estimulando a curiosidade e o prazer de aprender em cada etapa do
+              desenvolvimento infantil.
+            </p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img
+            src="./img/bannerThree.jpg"
+            class="d-block w-100"
+            alt="Estudantes de Ensino Médio"
+          />
+          <div class="carousel-caption d-md-block text-start">
+            <span class="text-uppercase fw-bold ls-2 small mb-2 d-block"
+              >Protagonismo e Aprovação</span
+            >
+            <h1 class="display-3 fw-bold text-uppercase">
+              Ensino <br /><span class="text-white">Médio</span>
+            </h1>
+            <p class="lead opacity-75 mt-3">
+              Preparação intensiva para os maiores vestibulares com foco em
+              carreiras e liderança.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Próximo</span>
+      </button>
+    </div>
+
+    <section id="sobre-nos" class="py-5">
+      <div class="title-global">
+        <h1 id="sobre">Quem somos</h1>
+      </div>
+      <div class="container py-lg-5">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6" data-aos="fade-right">
+            <span class="text-uppercase fw-bold ls-2 small mb-2 d-block"
+              >Conheça nossa história</span
+            >
+            <h2 class="display-5 fw-bold mb-4">Inline Innovations</h2>
+
+            <p class="lead text-muted mb-4">
+              A <strong>Inline Innovations</strong> nasceu do desejo de
+              transformar a educação tradicional em uma experiência dinâmica e
+              conectada com as demandas do século XXI. Acreditamos que o
+              aprendizado deve ser fluido e constante, como uma linha que
+              conecta o conhecimento teórico à inovação prática.
+            </p>
+
+            <p class="text-muted mb-4">
+              Nossa metodologia exclusiva foca no desenvolvimento do
+              protagonismo estudantil, utilizando ferramentas tecnológicas de
+              ponta e laboratórios maker para que cada aluno possa criar, testar
+              e evoluir. Aqui, o erro é visto como parte do processo criativo e
+              a curiosidade é o nosso principal motor.
+            </p>
+
+            <p class="text-muted">
+              Com um corpo docente altamente qualificado e focado no acolhimento
+              socioemocional, garantimos que a jornada acadêmica seja não apenas
+              produtiva, mas também humanizada. No Ensino Fundamental e Médio,
+              preparamos cidadãos críticos, globais e prontos para liderar as
+              inovações de amanhã.
+            </p>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="row g-3 align-items-start">
+              <div class="col-6" data-aos="fade-up" data-aos-delay="100">
+                <div
+                  class="img-wrapper shadow-lg rounded-4 overflow-hidden mt-n5"
+                >
+                  <img
+                    src="./img/bannerThree.jpg"
+                    alt="Ambiente Inline Innovations"
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+              <div class="col-6" data-aos="fade-up" data-aos-delay="300">
+                <div
+                  class="img-wrapper shadow-lg rounded-4 overflow-hidden mt-5"
+                >
+                  <img
+                    src="./img/bannerTwo.jpg"
+                    alt="Alunos inovando"
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="valores py-5">
+      <div class="title-global">
+        <h1 id="sobre">nossos valores</h1>
+        <span
+          >Um pouco sobre nossa escola e como ela faz a diferença no ramo de
+          ensino</span
+        >
+      </div>
+
+      <div class="container py-lg-5">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6" data-aos="fade-right">
+            <div class="d-flex flex-column gap-5">
+              <div class="d-flex align-items-start gap-4 diferencial-item">
+                <div class="icon-circle shadow-sm">
+                  <i class="bi bi-rocket-takeoff"></i>
+                </div>
+                <div>
+                  <h5 class="fw-bold mb-1 text-uppercase">Nossa Missão</h5>
+                  <p class="text-muted mb-0">
+                    Promover uma educação de excelência que integre inovação
+                    tecnológica e valores humanos, capacitando alunos para serem
+                    protagonistas em um mundo em constante transformação.
+                  </p>
+                </div>
+              </div>
+
+              <div class="d-flex align-items-start gap-4 diferencial-item">
+                <div class="icon-circle shadow-sm">
+                  <i class="bi bi-eye"></i>
+                </div>
+                <div>
+                  <h5 class="fw-bold mb-1 text-uppercase">Nossa Visão</h5>
+                  <p class="text-muted mb-0">
+                    Ser reconhecida como uma instituição de ensino referência em
+                    inovação pedagógica e formação integral, liderando o futuro
+                    da educação básica e média no país.
+                  </p>
+                </div>
+              </div>
+
+              <div class="d-flex align-items-start gap-4 diferencial-item">
+                <div class="icon-circle shadow-sm">
+                  <i class="bi bi-heart-pulse"></i>
+                </div>
+                <div>
+                  <h5 class="fw-bold mb-1 text-uppercase">Nossos Valores</h5>
+                  <p class="text-muted mb-0">
+                    Atuamos com ética, transparência, respeito à diversidade e
+                    compromisso com o acolhimento socioemocional, cultivando um
+                    ambiente de aprendizado seguro e colaborativo.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-left">
+            <div class="image-frame-container position-relative">
+              <div class="circle-border"></div>
+              <img
+                src="./img/bannerOne.jpg"
+                alt="Educação e Valores"
+                class="img-fluid rounded-circle-custom shadow-lg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="estrutura" class="py-5 text-white">
+      <div class="container py-lg-5">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-7">
+            <div class="row g-3">
+              <div class="col-6" data-aos="zoom-in">
+                <img
+                  src="./img/e-1.jpg"
+                  class="img-fluid rounded-4 shadow img-estrutura"
+                  alt="Laboratório de Tecnologia"
+                />
+              </div>
+              <div class="col-6" data-aos="zoom-in" data-aos-delay="100">
+                <img
+                  src="./img/e-2.jpg"
+                  class="img-fluid rounded-4 shadow img-estrutura"
+                  alt="Biblioteca Interativa"
+                />
+              </div>
+              <div class="col-6" data-aos="zoom-in" data-aos-delay="200">
+                <img
+                  src="./img/e-3.jpg"
+                  class="img-fluid rounded-4 shadow img-estrutura"
+                  alt="Quadra Poliesportiva"
+                />
+              </div>
+              <div class="col-6" data-aos="zoom-in" data-aos-delay="300">
+                <img
+                  src="./img/e-4.jpg"
+                  class="img-fluid rounded-4 shadow img-estrutura"
+                  alt="Espaço Maker"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5" data-aos="fade-left">
+            <h1 class="display-5 fw-bold mb-4">Estrutura de Ponta</h1>
+
+            <p class="lead mb-4">
+              A **Inline Innovations** oferece um ambiente planejado para o
+              aprendizado prático e colaborativo. Nossas salas de aula são
+              dinâmicas e equipadas com tecnologia de ponta, permitindo que o
+              aluno seja o verdadeiro protagonista do seu conhecimento.
+            </p>
+
+            <p class="mb-4 opacity-75">
+              Contamos com laboratórios de ciências e robótica modernos, onde a
+              teoria se transforma em projetos reais. Nossas áreas de
+              convivência e biblioteca foram desenhadas para estimular a
+              criatividade e a troca de experiências em um ambiente seguro e
+              acolhedor.
+            </p>
+
+            <p class="opacity-75">
+              Para o desenvolvimento físico e bem-estar, dispomos de quadras
+              poliesportivas e piscina semiolímpica. Cada espaço do nosso campus
+              foi pensado para integrar saúde, esporte e desempenho acadêmico de
+              excelência em uma jornada educativa completa.
+            </p>
+
+            <button class="btn rounded-pill px-4 mt-3">
+              Agendar uma Visita
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="segmentos" id="segmentos" class="py-5">
+      <div class="container py-lg-5">
+        <div class="title-global" data-aos="fade-up">
+          <h1 id="sobre">Segmentos</h1>
+          <span
+            >Educação de excelência para todas as etapas da vida escolar.</span
+          >
+        </div>
+
+        <div class="row g-4">
+          <div
+            class="col-md-6 col-lg-3"
+            data-aos="flip-left"
+            data-aos-delay="100"
+          >
+            <div
+              class="segmento-card cardOne text-white h-100 p-4 text-center rounded-4 shadow-sm"
+            >
+              <div class="icon-wrapper mb-3">
+                <i class="bi bi-balloon fs-1"></i>
+              </div>
+              <h5 class="fw-bold">Educação Infantil</h5>
+              <p class="small opacity-90">
+                Onde a curiosidade é estimulada através do lúdico e do
+                acolhimento.
+              </p>
+              <button class="btn btn-sm btn-outline-light rounded-pill mt-2">
+                Saiba Mais
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="col-md-6 col-lg-3"
+            data-aos="flip-left"
+            data-aos-delay="200"
+          >
+            <div
+              class="segmento-card cardTwo text-white h-100 p-4 text-center rounded-4 shadow-sm"
+            >
+              <div class="icon-wrapper mb-3">
+                <i class="bi bi-book fs-1"></i>
+              </div>
+              <h5 class="fw-bold">Fundamental 1</h5>
+              <p class="small opacity-90">
+                Desenvolvimento da base acadêmica com foco em alfabetização e
+                cidadania.
+              </p>
+              <button class="btn btn-sm btn-outline-light rounded-pill mt-2">
+                Saiba Mais
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="col-md-6 col-lg-3"
+            data-aos="flip-left"
+            data-aos-delay="300"
+          >
+            <div
+              class="segmento-card cardOne text-white h-100 p-4 text-center rounded-4 shadow-sm"
+            >
+              <div class="icon-wrapper mb-3">
+                <i class="bi bi-journal fs-1"></i>
+              </div>
+              <h5 class="fw-bold">Fundamental 2</h5>
+              <p class="small opacity-90">
+                Incentivo ao pensamento crítico e experimentação prática nos
+                laboratórios.
+              </p>
+              <button class="btn btn-sm btn-outline-light rounded-pill mt-2">
+                Saiba Mais
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="col-md-6 col-lg-3"
+            data-aos="flip-left"
+            data-aos-delay="400"
+          >
+            <div
+              class="segmento-card cardTwo text-white h-100 p-4 text-center rounded-4 shadow-sm"
+            >
+              <div class="icon-wrapper mb-3">
+                <i class="bi bi-mortarboard fs-1"></i>
+              </div>
+              <h5 class="fw-bold">Ensino Médio</h5>
+              <p class="small opacity-90">
+                Preparação intensiva para os maiores vestibulares e formação
+                profissional.
+              </p>
+              <button class="btn btn-sm btn-outline-light rounded-pill mt-2">
+                Saiba Mais
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="diferenciais" class="py-5 text-white">
+      <div class="container py-lg-5">
+        <div class="text-center mb-5" data-aos="fade-up">
+          <h2 class="fw-bold display-5">Nossos Diferenciais</h2>
+          <p class="opacity-75">Conheça os pilares da nossa educação.</p>
+        </div>
+
+        <div class="row g-4 justify-content-center">
+          <div
+            class="col-md-6 col-lg-3"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div
+              class="card-diferencial card-orange h-100 p-4 shadow-lg text-center"
+            >
+              <div class="icon-box-soft mb-4">
+                <i class="bi bi-lightbulb"></i>
+              </div>
+              <h5 class="fw-bold text-dark mb-3">Metodologia Inovadora</h5>
+              <p class="text-muted small mb-4">
+                Aprendizagem baseada em projetos, foco em STEAM e
+                desenvolvimento do pensamento crítico desde cedo.
+              </p>
+              <a href="#" class="btn btn-light-pill mt-auto"
+                >Saiba Mais <i class="bi bi-chevron-down ms-1"></i
+              ></a>
+            </div>
+          </div>
+
+          <div
+            class="col-md-6 col-lg-3"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div
+              class="card-diferencial card-blue h-100 p-4 shadow-lg text-center"
+            >
+              <div class="icon-box-soft mb-4">
+                <i class="bi bi-globe-americas"></i>
+              </div>
+              <h5 class="fw-bold text-dark mb-3">Programa Bilíngue</h5>
+              <p class="text-muted small mb-4">
+                Imersão diária no segundo idioma, preparando alunos para a
+                fluência e a cidadania global.
+              </p>
+              <a href="#" class="btn btn-light-pill mt-auto"
+                >Saiba Mais <i class="bi bi-chevron-down ms-1"></i
+              ></a>
+            </div>
+          </div>
+
+          <div
+            class="col-md-6 col-lg-3"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <div
+              class="card-diferencial card-orange h-100 p-4 shadow-lg text-center"
+            >
+              <div class="icon-box-soft mb-4">
+                <i class="bi bi-robot"></i>
+              </div>
+              <h5 class="fw-bold text-dark mb-3">Cultura Maker & Tech</h5>
+              <p class="text-muted small mb-4">
+                Espaços criativos, aulas de robótica e programação para
+                transformar ideias em realidade.
+              </p>
+              <a href="#" class="btn btn-light-pill mt-auto"
+                >Saiba Mais <i class="bi bi-chevron-down ms-1"></i
+              ></a>
+            </div>
+          </div>
+
+          <div
+            class="col-md-6 col-lg-3"
+            data-aos="fade-up"
+            data-aos-delay="400"
+          >
+            <div
+              class="card-diferencial card-gray h-100 p-4 shadow-lg text-center"
+            >
+              <div class="icon-box-soft mb-4">
+                <i class="bi bi-heart-pulse"></i>
+              </div>
+              <h5 class="fw-bold text-dark mb-3">Acolhimento Socioemocional</h5>
+              <p class="text-muted small mb-4">
+                Suporte individualizado e atividades para desenvolvimento da
+                inteligência emocional e relações saudáveis.
+              </p>
+              <a href="#" class="btn btn-light-pill mt-auto"
+                >Saiba Mais <i class="bi bi-chevron-down ms-1"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="py-5 bg-white">
+      <div class="container py-lg-5">
+        <div class="row g-5">
+          <div class="col-lg-5" data-aos="fade-right">
+            <h2 class="fw-bold text-dark-blue mb-3">Entre em contato</h2>
+            <p class="text-muted mb-5">
+              Estamos prontos para tirar suas dúvidas e apresentar nossa
+              metodologia de ensino inovadora.
+            </p>
+
+            <div class="d-flex flex-column gap-4">
+              <div class="d-flex align-items-center gap-3">
+                <div class="contact-icon shadow-sm">
+                  <i class="bi bi-geo-alt-fill"></i>
+                </div>
+                <div>
+                  <h6 class="fw-bold mb-0 text-dark-blue">Sede Principal</h6>
+                  <small class="text-muted"
+                    >Av. Paulista, 1000 - Bela Vista<br />São Paulo - SP</small
+                  >
+                </div>
+              </div>
+
+              <div class="d-flex align-items-center gap-3">
+                <div class="contact-icon shadow-sm">
+                  <i class="bi bi-envelope-fill"></i>
+                </div>
+                <div>
+                  <h6 class="fw-bold mb-0 text-dark-blue">E-mail</h6>
+                  <small class="text-muted"
+                    >contato@inlineinnovations.com.br<br />matriculas@inlineinnovations.com.br</small
+                  >
+                </div>
+              </div>
+
+              <div class="d-flex align-items-center gap-3 border-bottom pb-4">
+                <div class="contact-icon shadow-sm">
+                  <i class="bi bi-telephone-fill"></i>
+                </div>
+                <div>
+                  <h6 class="fw-bold mb-0 text-dark-blue">Telefone</h6>
+                  <small class="text-muted"
+                    >Fixo: (11) 4002-8922<br />WhatsApp: (11) 98888-7777</small
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-4">
+              <h6 class="fw-bold mb-3 text-dark-blue">
+                Siga nossas redes sociais
+              </h6>
+              <div class="d-flex gap-2">
+                <a href="#" class="social-circle"
+                  ><i class="bi bi-facebook"></i
+                ></a>
+                <a href="#" class="social-circle"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+                <a href="#" class="social-circle"
+                  ><i class="bi bi-twitter-x"></i
+                ></a>
+                <a href="#" class="social-circle"
+                  ><i class="bi bi-youtube"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7" data-aos="fade-left">
+            <div class="bg-form-light p-4 p-md-5 rounded-4">
+              <h3 class="fw-bold text-dark-blue mb-4 text-center text-md-start">
+                Envie-nos uma mensagem
+              </h3>
+              <form id="formContato">
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <label class="form-label small fw-bold">Nome</label>
+                    <input
+                      type="text"
+                      class="form-control pill-input"
+                      placeholder="Seu nome"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label small fw-bold"
+                      >Empresa/Escola Anterior</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control pill-input"
+                      placeholder="Instituição"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label small fw-bold">Telefone</label>
+                    <input
+                      type="tel"
+                      class="form-control pill-input"
+                      placeholder="(11) 99999-9999"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label small fw-bold">E-mail</label>
+                    <input
+                      type="email"
+                      class="form-control pill-input"
+                      placeholder="seu@email.com"
+                    />
+                  </div>
+                  <div class="col-12">
+                    <label class="form-label small fw-bold">Assunto</label>
+                    <input
+                      type="text"
+                      class="form-control pill-input"
+                      placeholder="Ex: Matrícula ou Dúvida"
+                    />
+                  </div>
+                  <div class="col-12">
+                    <label class="form-label small fw-bold">Mensagem</label>
+                    <textarea
+                      class="form-control pill-input textarea-adjust"
+                      rows="4"
+                      placeholder="Como podemos ajudar?"
+                    ></textarea>
+                  </div>
+                  <div class="col-12 mt-4 text-center text-md-start">
+                    <button
+                      type="submit"
+                      class="btn btn-send-blue w-100 py-3 fw-bold"
+                    >
+                      Enviar Mensagem
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer pt-5">
+      <!-- CTA Newsletter -->
+      <div class="container mb-5">
+        <div class="row align-items-center g-3">
+          <div class="col-md-6 text-white">
+            <h4 class="fw-bold">Descubra um futuro melhor para seu filho</h4>
+          </div>
+
+          <div class="col-md-6">
+            <form class="d-flex">
+              <input
+                type="email"
+                class="form-control me-2"
+                placeholder="Digite seu e-mail"
+              />
+              <button class="btn btn-info text-white fw-semibold">
+                Inscrever
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <hr class="footer-divider" />
+
+      <!-- Conteúdo principal -->
+      <div class="container">
+        <div class="row gy-4">
+          <!-- Coluna 1 -->
+          <div class="col-md-3">
+            <h5 class="text-white fw-bold">Colégio Exemplo</h5>
+            <p class="footer-text">
+              Educação de qualidade com foco no desenvolvimento humano,
+              acadêmico e social.
+            </p>
+
+            <div class="social-icons">
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+              <a href="#"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <!-- Coluna 2 -->
+          <div class="col-md-3">
+            <h6 class="footer-title">Segmentos</h6>
+            <ul class="footer-list">
+              <li>Educação Infantil</li>
+              <li>Ensino Fundamental I</li>
+              <li>Ensino Fundamental II</li>
+              <li>Ensino Médio</li>
+            </ul>
+          </div>
+
+          <!-- Coluna 3 -->
+          <div class="col-md-3">
+            <h6 class="footer-title">Institucional</h6>
+            <ul class="footer-list">
+              <li>Sobre o Colégio</li>
+              <li>Proposta Pedagógica</li>
+              <li>Diferenciais</li>
+              <li>Notícias</li>
+            </ul>
+          </div>
+
+          <!-- Coluna 4 -->
+          <div class="col-md-3">
+            <h6 class="footer-title">Contato</h6>
+            <ul class="footer-list">
+              <li><i class="bi bi-geo-alt"></i> Rua Exemplo, 123</li>
+              <li><i class="bi bi-envelope"></i> contato@colegio.com</li>
+              <li><i class="bi bi-telephone"></i> (11) 99999-9999</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="text-center mt-5 footer-copy">
+          © 2026 Colégio Inline Innovations. Todos os direitos reservados.
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
